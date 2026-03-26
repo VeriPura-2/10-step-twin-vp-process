@@ -21,7 +21,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 
 /* ── SLIDE SYSTEM ── */
 .slide{
-  width:100%;max-width:1080px;margin:0 auto 3rem;
+  width:100%;max-width:1320px;margin:0 auto 3rem;
   border-radius:12px;overflow:hidden;
   box-shadow:0 2px 24px rgba(15,36,68,0.08);
 }
@@ -43,7 +43,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 /* ── SECTION HEADERS ── */
 .section-eyebrow{font-family:'DM Mono',monospace;font-weight:500;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--blue);margin-bottom:0.5rem;display:flex;align-items:center;gap:0.5rem}
 .section-eyebrow::before{content:'';width:22px;height:2px;background:var(--blue)}
-.section-title{font-family:'DM Serif Display',serif;font-size:1.6rem;font-weight:400;margin-bottom:2rem}
+.section-title{font-family:'DM Serif Display',serif;font-size:1.8rem;font-weight:400;margin-bottom:2rem}
 
 /* ── OVERVIEW GRID ── */
 .phase-strip{display:flex;gap:3px;margin-bottom:1rem}
@@ -60,7 +60,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 .stage-card.ph-entry::before{background:var(--amber)}
 .card-num{font-family:'DM Mono',monospace;font-size:1.1rem;font-weight:500;margin-bottom:0.3rem}
 .ph-origin .card-num{color:var(--green)}.ph-predeparture .card-num{color:var(--blue-ph)}.ph-transit .card-num{color:var(--purple)}.ph-entry .card-num{color:var(--amber)}
-.card-label{font-weight:600;font-size:0.82rem;line-height:1.3;margin-bottom:0.25rem}
+.card-label{font-weight:600;font-size:0.88rem;line-height:1.3;margin-bottom:0.25rem}
 .card-sub{font-family:'DM Mono',monospace;font-size:0.62rem;color:var(--muted);line-height:1.4;margin-bottom:0.6rem}
 .card-timing{border-top:1px solid var(--border);padding-top:0.5rem;display:grid;grid-template-columns:auto 1fr;gap:0.15rem 0.5rem;font-family:'DM Mono',monospace;font-size:0.62rem}
 .t-label{font-weight:500}.t-before{color:var(--amber)}.t-after{color:var(--green)}.t-val{text-align:right;color:var(--ink)}
@@ -76,15 +76,15 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 .stage-header.ph-entry::before{background:var(--amber)}
 .stage-num{font-family:'DM Mono',monospace;font-weight:500;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:0.2rem}
 .ph-origin .stage-num{color:var(--green)}.ph-predeparture .stage-num{color:var(--blue-ph)}.ph-transit .stage-num{color:var(--purple)}.ph-entry .stage-num{color:var(--amber)}
-.stage-label{font-family:'DM Serif Display',serif;font-size:1.5rem;font-weight:400}
+.stage-label{font-family:'DM Serif Display',serif;font-size:1.7rem;font-weight:400}
 .stage-sub{font-size:0.88rem;color:var(--muted);margin-top:0.15rem}
 
 .stage-body{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
 
 /* Left col */
-.docs-section h4,.ba-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:0.6rem}
+.docs-section h4,.ba-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);margin-bottom:0.6rem}
 .docs-list{list-style:none;display:flex;flex-direction:column;gap:0.35rem;margin-bottom:1.5rem}
-.docs-list li{font-size:0.88rem;padding:0.4rem 0.6rem;background:var(--pale);border-radius:4px;display:flex;align-items:center;gap:0.5rem}
+.docs-list li{font-size:0.95rem;padding:0.4rem 0.6rem;background:var(--pale);border-radius:4px;display:flex;align-items:center;gap:0.5rem}
 .docs-list li::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0}
 
 .ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:0.6rem}
@@ -93,25 +93,25 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 .ba-card.after{background:#f2faf6}
 .ba-card .ba-label{font-family:'DM Mono',monospace;font-weight:500;font-size:0.6rem;letter-spacing:0.1em;text-transform:uppercase;margin-bottom:0.3rem}
 .ba-card.before .ba-label{color:var(--amber)}.ba-card.after .ba-label{color:var(--green)}
-.ba-card .ba-time{font-family:'DM Mono',monospace;font-weight:500;font-size:0.85rem;margin-bottom:0.4rem}
+.ba-card .ba-time{font-family:'DM Mono',monospace;font-weight:500;font-size:0.95rem;margin-bottom:0.4rem}
 .ba-card.before .ba-time{color:var(--amber)}.ba-card.after .ba-time{color:var(--green)}
-.ba-card .ba-text{font-size:0.78rem;line-height:1.55;color:var(--ink)}
+.ba-card .ba-text{font-size:0.88rem;line-height:1.55;color:var(--ink)}
 
 /* Right col */
 .vp-section{margin-bottom:1.5rem}
-.vp-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:0.6rem;padding-bottom:0.3rem;border-bottom:2px solid var(--green)}
+.vp-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--green);margin-bottom:0.6rem;padding-bottom:0.3rem;border-bottom:2px solid var(--green)}
 .vp-list{list-style:none;display:flex;flex-direction:column;gap:0.3rem}
-.vp-list li{font-size:0.85rem;line-height:1.5;display:flex;align-items:flex-start;gap:0.5rem}
+.vp-list li{font-size:0.92rem;line-height:1.5;display:flex;align-items:flex-start;gap:0.5rem}
 .vp-list li::before{content:'\2713';color:var(--green);font-weight:700;flex-shrink:0;margin-top:1px}
 
 .tw-section{background:var(--navy);border-radius:8px;padding:1rem 1.25rem}
-.tw-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.65rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
+.tw-section h4{font-family:'DM Mono',monospace;font-weight:500;font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
 .tw-list{list-style:none;display:flex;flex-direction:column;gap:0.3rem}
-.tw-list li{font-size:0.85rem;line-height:1.5;color:var(--sky);display:flex;align-items:flex-start;gap:0.5rem}
+.tw-list li{font-size:0.92rem;line-height:1.5;color:var(--sky);display:flex;align-items:flex-start;gap:0.5rem}
 .tw-list li::before{content:'\2192';color:var(--gold);flex-shrink:0}
 
 /* ── COMPARISON TABLE ── */
-.comp-table{width:100%;border-collapse:collapse;font-size:0.85rem}
+.comp-table{width:100%;border-collapse:collapse;font-size:0.92rem}
 .comp-table thead{background:var(--navy);color:#fff}
 .comp-table th{font-family:'DM Mono',monospace;font-weight:500;font-size:0.68rem;letter-spacing:0.08em;text-transform:uppercase;padding:0.6rem 0.8rem;text-align:left}
 .comp-table th:nth-child(2),.comp-table th:nth-child(3),.comp-table th:nth-child(4){text-align:center}
@@ -122,7 +122,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 .comp-table .t-i{color:var(--gold);text-align:center;font-weight:700}
 
 /* ── PARTY TABLE ── */
-.party-table{width:100%;border-collapse:collapse;font-size:0.78rem}
+.party-table{width:100%;border-collapse:collapse;font-size:0.88rem}
 .party-table thead{background:var(--navy);color:#fff}
 .party-table th{font-family:'DM Mono',monospace;font-weight:500;font-size:0.62rem;letter-spacing:0.06em;text-transform:uppercase;padding:0.5rem 0.6rem;text-align:center}
 .party-table th:first-child{text-align:center;width:50px}
@@ -212,7 +212,7 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
   <div class="slide-inner" style="background:#fff">
     <div class="section-eyebrow">Party Responsibilities</div>
     <div class="section-title">Who does what at each stage</div>
-    <table class="party-table"><thead><tr><th>Stage</th><th>Exporter</th><th>Importer</th><th>Signal</th><th>VeriPura</th><th>TWIN</th></tr></thead><tbody id="partyBody"></tbody></table>
+    <table class="party-table"><thead><tr><th>Stage</th><th>Exporter</th><th>Importer</th><th>Freight Forwarder</th><th>VeriPura</th><th>TWIN</th></tr></thead><tbody id="partyBody"></tbody></table>
   </div>
   <div class="slide-footer">VeriPura × TWIN · Party Responsibilities · For discussion with Suffolk Port Health</div>
 </div>
@@ -221,70 +221,70 @@ body{font-family:'DM Sans',sans-serif;background:var(--cream);color:var(--ink);m
 const stages = [
   { n:1, label:"Pre-Order Assessment", sub:"Establishment & product eligibility", phase:"origin",
     docs:["Purchase Order","DEFRA Approved Establishment Register","SIF Number Verification","RASFF Suspension Check"],
-    vp:["Live check vs DEFRA establishment register","Validate SIF number & product approval","Scan RASFF alerts & APHA suspensions","Issue go/no-go verdict before PO placed"],
+    vp:["Live check vs DEFRA establishment register","Validate SIF number & product approval","Scan RASFF alerts & APHA suspensions","Issue go/no-go verdict before PO placed","Document hash stored on IOTA"],
     tw:["Eligibility check notarised on IOTA with timestamp","Immutable audit trail of pre-order compliance"],
     before:"Importer manually checks DEFRA spreadsheets, emails APHA. Takes 2–5 days, frequently incomplete.",
     after:"All checks in <60 seconds against live databases. Go/no-go before PO is placed. TWIN notarises result.",
     tB:"2–5 days", tA:"< 60 sec" },
   { n:2, label:"Product Assessment", sub:"Specification mapping & SISBOV segregation", phase:"origin",
     docs:["Product Specification Sheet","Letter of Credit","SISBOV Certificate","Cutting & Preparation Records"],
-    vp:["Map product spec to UK regulatory requirements","Validate SISBOV segregation status","Cross-reference permitted cuts & processing methods","Identify spec gaps before production"],
+    vp:["Map product spec to UK regulatory requirements","Validate SISBOV segregation status","Cross-reference permitted cuts & processing methods","Identify spec gaps before production","Document hash stored on IOTA"],
     tw:["Product spec & SISBOV verification notarised","Processor identity anchored via IOTA DID"],
     before:"Specs compared manually. SISBOV checked via slow Brazilian portal. Discrepancies found at the border.",
     after:"Specs mapped to regulatory requirements in real time. Issues caught before production, not at port.",
     tB:"3–7 days", tA:"< 2 hours" },
   { n:3, label:"Commercial & Export Docs", sub:"Invoices, packing lists & export licensing", phase:"predeparture",
     docs:["Commercial Invoice","Packing List","Consignment Information","Export Licence (Brazil MAPA)"],
-    vp:["Ingest & parse all commercial documents","Validate HS codes, weights, product descriptions","Confirm export licence validity","Flag field-level discrepancies"],
+    vp:["Ingest & parse all commercial documents","Validate HS codes, weights, product descriptions","Confirm export licence validity","Flag field-level discrepancies","Document hash stored on IOTA"],
     tw:["Document hashes notarised — tampering detectable","Document set linked to consignment DID"],
     before:"Customs brokers check invoices manually. HS code errors common. Licence checked by phone/email.",
     after:"Full commercial doc set validated in minutes. Hashes notarised so alteration is cryptographically detectable.",
     tB:"1–3 days", tA:"< 30 min" },
   { n:4, label:"Official Vet Inspection", sub:"Health certification & ante/post-mortem records", phase:"predeparture",
     docs:["Export Health Certificate (EHC)","Ante/Post-Mortem Inspection Records","New Brazil Health Certificate","Residue Testing Results"],
-    vp:["Validate EHC against current APHA template","Check OV credentials vs MAPA registry","Cross-reference residue results vs UK MRLs","Confirm NBHC meets post-Brexit GB requirements"],
+    vp:["Validate EHC against current APHA template","Check OV credentials vs MAPA registry","Cross-reference residue results vs UK MRLs","Confirm NBHC meets post-Brexit GB requirements","Document hash stored on IOTA"],
     tw:["EHC & OV credentials issued as verifiable credentials","Border inspectors verify via QR — no Brazil contact needed"],
     before:"EHCs arrive as PDFs/paper. OV credentials verified by email with Brazil — takes days. Forgeries have occurred.",
     after:"EHC structure & OV credentials validated automatically. Inspector scans QR code for instant verification.",
     tB:"2–5 days", tA:"Instant at border" },
   { n:5, label:"Loading & Dispatch", sub:"Haulier assignment, sealing & temperature records", phase:"predeparture",
     docs:["Transport Protocol (Road-ARIZ)","Vehicle Sealing Record","Temperature Log (pre-loading)","CMR Waybill"],
-    vp:["Validate transport protocol vs APHA cold chain rules","Confirm approved transporter registration","Ingest temperature data from IoT sensors","Generate loading compliance summary"],
+    vp:["Validate transport protocol vs APHA cold chain rules","Confirm approved transporter registration","Ingest temperature data from IoT sensors","Generate loading compliance summary","Document hash stored on IOTA"],
     tw:["Seal number, vehicle ID & temp notarised at loading","Cold chain breaks recorded immutably"],
     before:"Loading records paper-based. Temp logs are PDFs. Seal numbers recorded manually. Discrepancies common.",
     after:"Loading data flows automatically. TWIN notarises seals & temps. Dispatch-to-arrival discrepancies flagged instantly.",
     tB:"Manual, error-prone", tA:"Automated, tamper-evident" },
   { n:6, label:"Port of Exit", sub:"Export customs & manifest filing", phase:"transit",
     docs:["Export Declaration (EX-A)","Bill of Lading / CMR","Customs Status Document"],
-    vp:["Pre-validate export declaration vs full doc set","Confirm HS codes & values consistent","Generate IPAFFS pre-notification data package"],
+    vp:["Pre-validate export declaration vs full doc set","Confirm HS codes & values consistent","Generate IPAFFS pre-notification data package","Document hash stored on IOTA"],
     tw:["Bill of Lading reference notarised on IOTA","Departure event recorded — immutable timestamp"],
     before:"Customs broker compiles declaration manually from multiple sources. HS code errors cause delays at UK entry.",
     after:"Export declaration pre-validated against full document set already on record. Errors caught before departure.",
     tB:"4–8 hours", tA:"< 1 hour" },
   { n:7, label:"Deep-Sea Transit", sub:"Container vessel monitoring & pre-arrival notifications", phase:"transit",
     docs:["Vessel Manifest","Transit Temperature Records","IPAFFS Arrival Notification"],
-    vp:["Monitor vessel ETA via carrier API","Auto-update IPAFFS on deviation","Prepare UK border documentation package"],
+    vp:["Monitor vessel ETA via carrier API","Auto-update IPAFFS on deviation","Prepare UK border documentation package","Document hash stored on IOTA"],
     tw:["Transit events anchored on IOTA ledger","Reefer cold chain data logged immutably"],
     before:"Importers manually track ETAs & update IPAFFS by hand. Late notifications cause holds. Reefer data rarely captured.",
     after:"Carrier API integration for real-time tracking. IPAFFS auto-updates. TWIN logs each transit event.",
     tB:"Manual tracking", tA:"Automated, real-time" },
   { n:8, label:"Port of Entry", sub:"IPAFFS, APHA documentary & physical checks", phase:"entry",
     docs:["IPAFFS Pre-Notification","Import Declaration (H1)","CHED-P","Seal Integrity Confirmation"],
-    vp:["Supply APHA with pre-validated document summary","QR code links to full compliance record","Flag open issues before physical check","Support CHED-P with pre-populated data"],
+    vp:["Supply APHA with pre-validated document summary","QR code links to full compliance record","Flag open issues before physical check","AI Agent assisted CHED-P application","Document hash stored on IOTA"],
     tw:["APHA verifies credentials via QR — no Brazil contact","Border clearance event on IOTA ledger","Full farm-to-border audit trail in single scan"],
     before:"APHA inspectors verify paper/PDF doc pack manually. EHC authenticity checked by contacting Brazil. 4–6 hour doc check.",
     after:"Inspector scans QR. All docs pre-validated, credentials pre-verified via TWIN. Doc check reduced to minutes.",
     tB:"4–6 hours", tA:"< 20 min" },
   { n:9, label:"UK Customs & Release", sub:"Duty, VAT, tariff classification & release", phase:"entry",
     docs:["Import Declaration (H1) — Finalised","Customs Duty & VAT Calculation","Tariff Classification Evidence"],
-    vp:["Validate tariff classification vs commodity code","Confirm duty rate & VAT vs HMRC Trade Tariff","Supply pre-validated data to customs broker","Generate post-clearance compliance summary"],
+    vp:["Validate tariff classification vs commodity code","Confirm duty rate & VAT vs HMRC Trade Tariff","Supply pre-validated data to customs broker","Generate post-clearance compliance summary","Document hash stored on IOTA"],
     tw:["Customs clearance notarised on IOTA","End-to-end compliance chain complete"],
     before:"Duty calculations manual. Tariff classification errors common — penalties result. Clearance 24–48 hours.",
     after:"Tariff classification & duty pre-validated. Broker submits with confidence. TWIN notarises release.",
     tB:"24–48 hours", tA:"2–4 hours" },
   { n:10, label:"Goods-In & Delivery", sub:"Final delivery, acceptance & traceability", phase:"entry",
     docs:["Delivery Note","Goods Receipt Confirmation","Final Temperature Record","Exchange Bill of Lading"],
-    vp:["Goods receipt triggers compliance record closure","Final temp compared vs cold chain spec","End-to-end compliance certificate issued","Data available for retailer traceability queries"],
+    vp:["Goods receipt triggers compliance record closure","Final temp compared vs cold chain spec","End-to-end compliance certificate issued","Data available for retailer traceability queries","Document hash stored on IOTA"],
     tw:["Delivery confirmation notarised — chain complete","Permanent record: farm to warehouse, single QR","Available for audits & regulatory queries indefinitely"],
     before:"Delivery ends the process — no connection back to compliance docs. Provenance queries take days to weeks.",
     after:"Single TWIN-notarised chain from Brazilian herd to UK warehouse. Any query resolved with one scan.",
